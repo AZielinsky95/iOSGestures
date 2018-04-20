@@ -48,8 +48,6 @@
     [sender setTranslation:CGPointZero inView:self.view];
     }
     
-    NSLog(@"SENDER X %f",sender.view.center.x);
-    
     if(sender.view.center.x <= self.maxX)
     {
         self.reachedLimit = true;
@@ -72,13 +70,12 @@
 
 -(void)screenPan:(UIPanGestureRecognizer*)sender
 {
-    NSLog(@"SCREEN PAN");
+
     CGPoint translationInView = [sender translationInView:self.view];
     
     CGPoint oldCenter = sender.view.center;
     
     CGPoint newCenter = CGPointMake(oldCenter.x + translationInView.x, oldCenter.y);
-    NSLog(@"%d: %@",__LINE__, @(newCenter.x));
     if(newCenter.x <= self.maxX)
     {
         return;
