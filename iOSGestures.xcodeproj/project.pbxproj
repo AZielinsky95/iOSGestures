@@ -8,24 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		CAFBA170208934D800B931B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFBA16F208934D800B931B8 /* AppDelegate.m */; };
-		CAFBA173208934D800B931B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFBA172208934D800B931B8 /* ViewController.m */; };
 		CAFBA176208934D800B931B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFBA174208934D800B931B8 /* Main.storyboard */; };
 		CAFBA178208934D800B931B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFBA177208934D800B931B8 /* Assets.xcassets */; };
 		CAFBA17B208934D800B931B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFBA179208934D800B931B8 /* LaunchScreen.storyboard */; };
 		CAFBA17E208934D800B931B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFBA17D208934D800B931B8 /* main.m */; };
+		CAFBA18B2089392E00B931B8 /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFBA18A2089392E00B931B8 /* PanViewController.m */; };
+		CAFBA18E2089393B00B931B8 /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFBA18D2089393B00B931B8 /* TapViewController.m */; };
+		CAFBA19120893D2000B931B8 /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFBA19020893D2000B931B8 /* PinchViewController.m */; };
+		CAFBA194208940D000B931B8 /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFBA193208940D000B931B8 /* SwipeViewController.m */; };
+		CAFBA197208940E500B931B8 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFBA196208940E500B931B8 /* RotationViewController.m */; };
+		CAFBA19A208959FE00B931B8 /* ScreenEdgePanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFBA199208959FE00B931B8 /* ScreenEdgePanViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CAFBA16B208934D800B931B8 /* iOSGestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSGestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFBA16E208934D800B931B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CAFBA16F208934D800B931B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CAFBA171208934D800B931B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CAFBA172208934D800B931B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CAFBA175208934D800B931B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAFBA177208934D800B931B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAFBA17A208934D800B931B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAFBA17C208934D800B931B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAFBA17D208934D800B931B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAFBA1892089392E00B931B8 /* PanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
+		CAFBA18A2089392E00B931B8 /* PanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
+		CAFBA18C2089393B00B931B8 /* TapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		CAFBA18D2089393B00B931B8 /* TapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
+		CAFBA18F20893D2000B931B8 /* PinchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
+		CAFBA19020893D2000B931B8 /* PinchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
+		CAFBA192208940D000B931B8 /* SwipeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		CAFBA193208940D000B931B8 /* SwipeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
+		CAFBA195208940E500B931B8 /* RotationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		CAFBA196208940E500B931B8 /* RotationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
+		CAFBA198208959FE00B931B8 /* ScreenEdgePanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenEdgePanViewController.h; sourceTree = "<group>"; };
+		CAFBA199208959FE00B931B8 /* ScreenEdgePanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenEdgePanViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +73,25 @@
 		CAFBA16D208934D800B931B8 /* iOSGestures */ = {
 			isa = PBXGroup;
 			children = (
+				CAFBA18F20893D2000B931B8 /* PinchViewController.h */,
+				CAFBA19020893D2000B931B8 /* PinchViewController.m */,
+				CAFBA18C2089393B00B931B8 /* TapViewController.h */,
+				CAFBA18D2089393B00B931B8 /* TapViewController.m */,
+				CAFBA1892089392E00B931B8 /* PanViewController.h */,
+				CAFBA18A2089392E00B931B8 /* PanViewController.m */,
 				CAFBA16E208934D800B931B8 /* AppDelegate.h */,
 				CAFBA16F208934D800B931B8 /* AppDelegate.m */,
-				CAFBA171208934D800B931B8 /* ViewController.h */,
-				CAFBA172208934D800B931B8 /* ViewController.m */,
 				CAFBA174208934D800B931B8 /* Main.storyboard */,
 				CAFBA177208934D800B931B8 /* Assets.xcassets */,
 				CAFBA179208934D800B931B8 /* LaunchScreen.storyboard */,
 				CAFBA17C208934D800B931B8 /* Info.plist */,
 				CAFBA17D208934D800B931B8 /* main.m */,
+				CAFBA192208940D000B931B8 /* SwipeViewController.h */,
+				CAFBA193208940D000B931B8 /* SwipeViewController.m */,
+				CAFBA195208940E500B931B8 /* RotationViewController.h */,
+				CAFBA196208940E500B931B8 /* RotationViewController.m */,
+				CAFBA198208959FE00B931B8 /* ScreenEdgePanViewController.h */,
+				CAFBA199208959FE00B931B8 /* ScreenEdgePanViewController.m */,
 			);
 			path = iOSGestures;
 			sourceTree = "<group>";
@@ -142,8 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAFBA173208934D800B931B8 /* ViewController.m in Sources */,
+				CAFBA18B2089392E00B931B8 /* PanViewController.m in Sources */,
 				CAFBA17E208934D800B931B8 /* main.m in Sources */,
+				CAFBA19120893D2000B931B8 /* PinchViewController.m in Sources */,
+				CAFBA19A208959FE00B931B8 /* ScreenEdgePanViewController.m in Sources */,
+				CAFBA197208940E500B931B8 /* RotationViewController.m in Sources */,
+				CAFBA194208940D000B931B8 /* SwipeViewController.m in Sources */,
+				CAFBA18E2089393B00B931B8 /* TapViewController.m in Sources */,
 				CAFBA170208934D800B931B8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

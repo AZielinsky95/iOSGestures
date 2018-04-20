@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TapViewController.h
 //  iOSGestures
 //
 //  Created by Alejandro Zielinsky on 2018-04-19.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TapViewController : UIViewController
 
 @end
-
